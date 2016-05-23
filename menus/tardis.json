@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tardis",
+        "command": "tardis:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tardis",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tardis:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
